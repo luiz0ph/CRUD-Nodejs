@@ -7,6 +7,8 @@ const cors = require("cors");
 const PORT = process.env.PORT;
 const HOST = process.env.HOST;
 
+const db = require("./src/database/config");
+
 const app = express();
 
 app.use(express.json());
