@@ -1,0 +1,26 @@
+{
+  "name": "crud-nodejs",
+  "version": "1.0.0",
+  "description": "Simple user management CRUD",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiz0ph/CRUD-Nodejs.git"
+  },
+  "keywords": [],
+  "author": "Luiz Phelipe",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/luiz0ph/CRUD-Nodejs/issues"
+  },
+  "homepage": "https://github.com/luiz0ph/CRUD-Nodejs#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3"
+  }
+}
